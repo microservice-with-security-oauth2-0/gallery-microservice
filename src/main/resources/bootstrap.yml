@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: gallery-service
+  cloud:    config:      fail-fast: true
+      uri:      - http://config-server:8888
+      username: user
+      password: 1234
